@@ -1,0 +1,97 @@
+<!DOCTYPE>
+
+<html>
+     
+	 <head>
+	       <title>Contact Me</title>
+		   <link rel="stylesheet" href="styles.css"/>
+		   <style>
+			body{
+				background-color: #0d8ba0;
+			}
+		  </style>
+	 </head>	
+	 <body>
+		<header>      
+			<nav>
+			   <a href="index.html"><img src="https://www.clipartmax.com/png/small/4-41237_free-icons-png-new-home-icon.png" alt="Home Icon" width="30" height="30"></a>
+			   <a href="about.html"><img src="https://www.clipartmax.com/png/small/42-427582_sign-in-my-profile-icon-png.png" alt="About Me" width="30" height="30"></a>
+				<a href="contact.html"><img src="https://www.clipartmax.com/png/small/3-37487_phone-icon-clip-art-at-clker-contact-us-icon-png.png" alt="Contact Me" width="30" height="30"</a>
+			   <a href="projects.html"><img src="https://www.clipartmax.com/png/small/15-158588_presentation-with-screen-the-noun-project.png" alt="Projects" width="30" height="30"></a>
+
+			<h1 id="main-heading">Contact Me</h1>
+
+			   </nav>    
+	</header>
+		   
+          <form action="submit_form.php">
+		  		  
+		      <label for="name">Name:</label>
+              <input type="text" name="name" id="name">             
+              <br/><br/>
+			  
+		      <label for="email">Email:</label>
+			  <input type="email" name="email" id="email">
+			  <br/><br/>
+			  
+              <label for="message">Message:</label>
+			  <textarea id="message" name="message" rows="4" cols="50"></textarea> 
+			  <br/><br/>
+			  
+              <label for="contact_method">Preferred contact method:</label>
+			      <input type="radio" id="email_contact" name="contact_method" value="Email" checked>
+			      <label for="email_contact">Email</label>
+				  <input type="radio" id="phone_contact" name="contact_method" value="Phone">
+				  <label for="phone_contact">Phone</label>
+			      <br/><br/>
+			  
+			  
+			   <label for="services">Services Interested In:</label>
+			       <input type="checkbox" id="web design" name="services" value="Web Design" checked>
+			       <label for="web design">Web Design</label>
+				   <input type="checkbox" id="seo" name="services" value="SEO"> 
+                   <label for="seo">SEO</label>
+				   <input type="checkbox" id="marketing" name="services" value="Marketing">
+				   <label for="marketing">Marketing</label>
+				   <br/><br/>
+			                      
+				 
+				
+                   <label for="budget">Estimated Budget:</label>
+		               <select id="budget" name="budget">
+				           <option value="under_500">Under $500</option>
+				           <option value="500_1000">$500 - $1000</option>
+				           <option value="above_1000">Above $1000</option>
+				       </select>
+				   <br/><br/>
+
+                    
+					
+				   <label for="feedback">Please give feedback to our Website:</label>
+				   <h4>Rating:</h4>
+				   <input type="radio" id="1_star" name="rating" value="1_star" checked>
+				   <Label for="1_star">1 star</label>
+				   <input type="radio" id="2_star" name="rating" value="2_star" checked>	
+				   <Label for="2_star">2 star</label>
+				   <input type="radio" id="3_star" name="rating" value="3_star" checked>
+                   <Label for="3_star">3 star</label>
+				   <input type="radio" id="4_star" name="rating" value="4_star" checked>
+                   <Label for="4_star">4 star</label>
+				   <input type="radio" id="5_star" name="rating" value="5 star" checked>				   
+				   <Label for="5_star">5 star</label>	
+				   <br/><br/>
+
+				   
+				   <a href="submit.html" <button type="submit">Submit</button></a>				  
+				  
+		  
+		  </form>
+
+
+		  <footer>	
+			<p>&copy; 2025 My portfolio. All rights reserved.</p> 
+		</footer> 
+	 </body>
+
+
+</html>
