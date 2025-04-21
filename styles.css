@@ -28,3 +28,32 @@ nav{
 aside{
     background-color: lightskyblue;
 }
+
+/* Child Combinator */
+
+.company > div{
+    background-color: #7ce9f7;
+}
+
+.team > div{
+    background-color: #3bdef3;
+}
+
+/*Adjacent Sibling Combinator*/
+
+/* I need to pick the first sibling of div which is a child of section tag */
+
+div+p{
+    color: #009393;
+}
+
+/* General Sibling Combinator */
+/* I need to style all the p tags which are siblings of h3 tag */
+
+.company h3~p{
+    color: blue;
+}
+
+.team h3~p{
+    color: green;
+}
