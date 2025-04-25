@@ -57,3 +57,20 @@ div+p{
 .team h3~p{
     color: green;
 }
+
+/* Styling Tables at Projects Page using Box Model */
+
+table{
+
+    border: 5px solid #37718e;
+    border-collapse: collapse;
+    margin-left: 200px ;
+    margin-top: 50px;
+    margin-bottom: 20px
+}
+
+th, td{
+
+    border: 3px solid #254e70;
+    padding: 10px;
+}
